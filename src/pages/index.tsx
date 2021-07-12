@@ -51,7 +51,7 @@ export default function Home() {
                 alt="item-menu"
                 className={styles.item}
               />
-              TÁXI DOG
+              UBER DOG
             </div>
           </li>
           <li>
@@ -67,10 +67,10 @@ export default function Home() {
         </ul>
         <div className={styles.social}>
           <span className={styles.icon}>
-            <FaInstagram size={60} />
+            <FaInstagram size={60} color="#028fcb" />
           </span>
           <span className={styles.icon}>
-            <FaWhatsapp size={60} />
+            <FaWhatsapp size={60} color="#028fcb" />
           </span>
         </div>
       </main>
