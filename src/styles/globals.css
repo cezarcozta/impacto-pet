@@ -17,20 +17,13 @@
   --yellow-500: #eba417;
 }
 
-@media (max-width: 1080px) {
-  html {
-    font-style: 93.75%;
-  }
-}
-
-@media (max-width: 720px) {
-  html {
-    font-style: 87.5%;
-  }
+html {
+  max-width: 320px;
+  max-height: 568px;
 }
 
 body {
-  background-color: var(--gray-900);
+  background-color: var(--white);
   color: var(--white);
 }
 
@@ -39,7 +32,7 @@ input,
 textarea,
 select,
 button {
-  font: 400 1rem "B612", sans-serif;
+  font: 400 1rem "Roboto", sans-serif;
 }
 button {
   cursor: pointer;

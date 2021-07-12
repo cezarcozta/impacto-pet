@@ -1,4 +1,5 @@
 import Head from "next/head";
+import "../styles/Home.module.css";
 
 export default function Home() {
   return (
@@ -6,7 +7,12 @@ export default function Home() {
       <Head>
         <title>Home | IMPACTO PET</title>
       </Head>
-      <h1>Home</h1>
+      <main className="mainContainer">
+        <img src="/images/header.JPG" alt="logo" className=".img" />
+      </main>
+      <footer>
+        <p>Desenvolvido por César Augusto Costa</p>
+      </footer>
     </>
   );
 }
