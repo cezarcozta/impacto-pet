@@ -15,6 +15,7 @@
 
   --cyan-500: #61dafb;
   --yellow-500: #eba417;
+  --orange-500: #fd520a;
 }
 
 html {
@@ -24,7 +25,7 @@ html {
 
 body {
   background-color: var(--white);
-  color: var(--white);
+  color: var(--orange-500);
 }
 
 body,
