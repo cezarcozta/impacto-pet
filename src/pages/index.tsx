@@ -1,5 +1,8 @@
 import Head from "next/head";
+import Image from "next/image";
 import { FaInstagram, FaWhatsapp } from "react-icons/fa";
+import headerImg from "../../public/images/header.png";
+import itemImg from "../../public/images/white-orange-logo.png";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
@@ -9,59 +12,57 @@ export default function Home() {
         <title>Home | IMPACTO PET</title>
       </Head>
       <header className={styles.headerContainer}>
-        <img src="/images/header.JPG" alt="logo" className={styles.img} />
+        <Image src={headerImg} alt="logo" />
       </header>
       <main className={styles.mainContainer}>
         <ul style={{ listStyle: "none" }}>
-          <li>
+          <li className={styles.item}>
             <div className={styles.row}>
-              <img
-                src="/images/white-orange-logo.png"
+              <Image
+                src={itemImg}
                 alt="item-menu"
-                className={styles.item}
+                layout="intrinsic"
+                width={50}
+                height={50}
               />
-              BANHO
+              BANHO E TOSA
             </div>
           </li>
 
-          <li>
+          <li className={styles.item}>
             <div className={styles.row}>
-              <img
-                src="/images/white-orange-logo.png"
+              <Image
+                src={itemImg}
                 alt="item-menu"
-                className={styles.item}
-              />
-              TOSA
-            </div>
-          </li>
-          <li>
-            <div className={styles.row}>
-              <img
-                src="/images/white-orange-logo.png"
-                alt="item-menu"
-                className={styles.item}
-              />
-              PET SHOP
-            </div>
-          </li>
-          <li>
-            <div className={styles.row}>
-              <img
-                src="/images/white-orange-logo.png"
-                alt="item-menu"
-                className={styles.item}
+                layout="intrinsic"
+                width={50}
+                height={50}
               />
               UBER DOG
             </div>
           </li>
-          <li>
+          <li className={styles.item}>
             <div className={styles.row}>
-              <img
-                src="/images/white-orange-logo.png"
+              <Image
+                src={itemImg}
                 alt="item-menu"
-                className={styles.item}
+                layout="intrinsic"
+                width={50}
+                height={50}
               />
               DISK ENTREGA
+            </div>
+          </li>
+          <li className={styles.item}>
+            <div className={styles.row}>
+              <Image
+                src={itemImg}
+                alt="item-menu"
+                layout="intrinsic"
+                width={50}
+                height={50}
+              />
+              ACESSÓRIOS
             </div>
           </li>
         </ul>

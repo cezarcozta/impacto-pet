@@ -5,9 +5,7 @@
 
   width: 100%;
 }
-.img {
-  width: 300px;
-}
+
 .mainContainer {
   display: flex;
   flex-direction: column;
@@ -19,8 +17,6 @@
 }
 
 .item {
-  height: 50px;
-  width: 50px;
   padding: 5px;
   margin-left: 4rem;
 }
